@@ -1,38 +1,221 @@
-.App {
+
+
+*{
+  box-sizing: border-box;
+  background-color: #060714;
+}
+
+.main{
+  margin-top: 10px;
+}
+
+.nav-menu{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 500px;
+}
+
+.nav-menu a{
+  color: #7780A1;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-info a{
+  color: #7780A1;
+  font-family: 'Sora', sans-serif;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 1650px;
+  margin-top: -30px;
+  text-decoration: none;
+}
+
+.account{
+  margin-top: -20px;
+}
+.account a{
+  width: 100%;
   color: white;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+  margin-left: 1750px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: purple;
+  }
+
+  .banner{
+    margin-top: 200px;
+  }
+
+  .banner p{
+  display: flex;
+  color:#7780A1;
+  font-family: 'Sora', sans-serif; 
+  margin-left: 900px;
+  width: 100%;
+  }
+
+  .banner h2{
+  display: flex;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  font-size: 100px;
+  margin-left: 700px;
+  margin-top: 50px;
+  width: 100%;
+  }
+  .banner h3{
+    display: flex;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 100px;
+    margin-left: 800px;
+    margin-top: -110px;
+    width: 100%;
+  }
+
+  .auctions{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-family: 'Sora', sans-serif;
+    margin-left: 800px;
+  }
+
+  
+.nft-scroller{
+  display: grid;
+  gap: var(--size-3);
+  grid-auto-flow: column;
+  grid-auto-columns: 23%;
+  overflow-x: auto;
+  padding: 0 var (--size-3) var(--size-3);
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nft-element img{
+  display: flex;
+  width: 350px;
+}
+.nft-element p{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-family: 'Sora', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mid-banner p{
+  display: flex;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  margin-left: 150px;
+  margin-top: 220px;
+}
+
+.mid-banner h2, h3{
+  display: flex;
+  font-family: 'Sora', sans-serif;
+  color: white;
+  margin-left: 150px;
+}
+
+.mid-banner-pic img{
+  width: 500px;
+  margin-left: 1200px;
+  margin-top: -200px;
+
+}
+
+
+.general-info{
+  margin-top: 200px;
+}
+.banner-info{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  margin-left: 510px;
+  font-size: 30px;
+}
+
+.activity-info{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  color: #7780A1;
+  font-family: 'Sora', sans-serif;
+  margin-left: 500px;
+  margin-top: -40px;
+}
+
+.footer{
+  width: auto;
+  margin-left: 264px;
+  margin-right: 264px;
+  margin-top: 150px;
+  border: 1px solid;
+  border-color: #7780A1;
+  border-radius: 4px;
+}
+.trademark{
+  display: flex;
+  color: white;
+  margin-left: 100px;
+}
+
+.footer-nav{
+  display: grid;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 700px;
+}
+.footer-nav a{
+  color: white;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-login{
+  display: grid;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 700px;
+  margin-top: 25px;
+}
+
+.footer-login a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: purple;
+  margin-bottom: 40px;
+}
+
+.input input{
+  display: flex;
+  width: 16%;
+  margin-left: 1100px;
+  margin-bottom: 40px;
+  margin-top: -80px;
+  border: 1px solid;
+  border-radius: 75px;
+  color: white;
+  background-color: white;
+}
+
+::placeholder{
+  color: #7780A1;
 }
